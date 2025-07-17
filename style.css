@@ -1,19 +1,9 @@
-
 body {
-  background-color: #f0f8ff;
-}
-header img {
-  max-height: 160px;
-}
-.service-card {
-  border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  background: white;
-  margin-bottom: 20px;
-}
-footer {
-  background: #eee;
-  padding: 10px 0;
-  text-align: center;
+  background: linear-gradient(rgba(0, 19, 60, 0.92), rgba(0, 19, 60, 0.92)),
+              url('img/thai-bg.png');
+  background-size: 400px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
 }
