@@ -1,36 +1,19 @@
 
 body {
-  font-family: "Prompt", sans-serif;
-  margin: 0;
-  background: #f0f8ff;
-  color: #333;
+  background-color: #f0f8ff;
 }
-header {
-  background-color: #ffffff;
-  text-align: center;
+header img {
+  max-height: 160px;
+}
+.service-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-}
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  background: #007bff;
-  overflow: hidden;
-  margin: 0;
-}
-nav li {
-  float: left;
-}
-nav li a {
-  display: block;
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-}
-nav li a:hover {
-  background: #0056b3;
+  background: white;
+  margin-bottom: 20px;
 }
 footer {
+  background: #eee;
+  padding: 10px 0;
   text-align: center;
-  padding: 10px;
-  background: #ddd;
 }
