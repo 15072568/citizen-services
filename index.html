@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -22,11 +21,13 @@
       padding: 20px;
       background: rgba(255, 255, 255, 0.95);
       margin-bottom: 20px;
+      color: #000;
     }
     footer {
       background: #eee;
       padding: 10px 0;
       text-align: center;
+      color: #000;
     }
     .icon {
       font-size: 40px;
@@ -72,19 +73,29 @@
     .btn-warning { background-color: #ffc107; color: #000; }
     .btn-secondary { background-color: #6c757d; }
     .btn-primary { background-color: #007bff; }
-
     .service-buttons .btn:hover {
       opacity: 0.9;
       border: 2px solid #00000022;
     }
-
     h1, h5, p, li, a.btn {
       color: #212529 !important;
+    }
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   </style>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-
 <body>
   <div class="container py-4">
     <header class="text-center mb-4">
@@ -92,13 +103,10 @@
     </header>
 
     <div class="service-card">
-      <h5><span class="icon">📰</span><strong>ข่าวประชาสัมพันธ์</strong></h5>
-      <ul>
-        <li>📌 ประกาศรับสมัครนักเรียนใหม่ปีการศึกษา 2568</li>
-        <li>📌 โครงการอบรมการดูแลสุขภาพสำหรับผู้สูงอายุ</li>
-        <li>📌 แจ้งวันหยุดทำการเนื่องในวันแม่แห่งชาติ</li>
-        <li>📌 อัพเดตช่องทางการแจ้งปัญหาความเดือดร้อนผ่านระบบออนไลน์</li>
-      </ul>
+      <h5><span class="icon">📰</span><strong>คลิปให้ความรู้ด้านกฎหมาย</strong></h5>
+      <div class="video-wrapper">
+        <iframe src="https://www.youtube.com/embed/videoseries?list=PLqY2nKlkP3r7PQ1JtcIi3Zd603VrPY9Ko&autoplay=1&mute=1" title="YouTube Playlist" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
     </div>
 
     <div class="service-card">
@@ -108,7 +116,7 @@
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeZJCOtIRkZapqTr2P2a4MSLfgBk_NX539b_QZBLZ0n2zfmA/viewform" class="btn btn-success"><i class="fas fa-child"></i>สมัครเรียน</a>
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiHhpqXWgRHkqu538_6mInvMd94fLLmxeEtZTzdO8KZtohBg/viewform" class="btn btn-warning"><i class="fas fa-sign-out-alt"></i>ย้าย/ลาออก</a>
         <a href="https://forms.gle/5xRANsjWjgr3XaBj6" class="btn btn-secondary"><i class="fas fa-users"></i>ชมรมผู้สูงอายุ</a>
-        <a href="https://forms.gle/Xxxxxถวายพระพร" class="btn btn-primary"><i class="fas fa-flower"></i>ลงนามถวายพระพร</a>
+        <a href="https://forms.gle/g7SMBiyRcedb8vPe7" class="btn btn-primary"><i class="fas fa-hands-praying"></i>ลงนามถวายพระพร</a>
       </div>
     </div>
 
@@ -130,5 +138,4 @@
     <small>อบต.นาทราย © 2025</small>
   </footer>
 </body>
-
 </html>
