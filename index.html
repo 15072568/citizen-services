@@ -6,44 +6,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ศูนย์บริการประชาชน อบต.นาทราย</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      background-color: #f0f8ff;
+    }
+    header img {
+      max-height: 160px;
+    }
+    .service-card {
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      background: white;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: #eee;
+      padding: 10px 0;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
   <div class="container py-4">
     <header class="text-center mb-4">
+      <img src="https://15072568.github.io/citizen-services/banner-obt-nasai.png" alt="แบนเนอร์อบต.นาทราย" class="img-fluid" />
       <h1 class="mt-3">ศูนย์บริการประชาชน องค์การบริหารส่วนตำบลนาทราย</h1>
     </header>
 
     <div class="service-card">
-      <h5><span class="icon">📰</span><strong>คลิปให้ความรู้ด้านกฎหมาย</strong></h5>
-      <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/videoseries?list=PLqY2nKlkP3r7PQ1JtcIi3Zd603VrPY9Ko&autoplay=1&mute=1" title="YouTube Playlist" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-      </div>
+      <h5>📌 <strong>ระบบแจ้งปัญหาความเดือดร้อน</strong></h5>
+      <p>สำหรับประชาชนที่ประสบปัญหาหรือพบเหตุเดือดร้อนในพื้นที่ เช่น น้ำประปา ถนน ไฟฟ้า ฯลฯ</p>
+      <a href="https://forms.gle/MsoBftPBfLRBrVSk8" target="_blank">➤ คลิกเพื่อแจ้งปัญหา</a>
     </div>
 
     <div class="service-card">
-      <h5><span class="icon">📝</span><strong>บริการอื่น ๆ</strong></h5>
-      <div class="service-buttons">
-        <a href="https://forms.gle/imPD4FGAFSfJjTeQA" class="btn btn-danger"><i class="fas fa-bullhorn"></i>แจ้งปัญหาความเดือดร้อน</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeZJCOtIRkZapqTr2P2a4MSLfgBk_NX539b_QZBLZ0n2zfmA/viewform" class="btn btn-success"><i class="fas fa-child"></i>สมัครเรียน</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfiHhpqXWgRHkqu538_6mInvMd94fLLmxeEtZTzdO8KZtohBg/viewform" class="btn btn-warning"><i class="fas fa-sign-out-alt"></i>ย้าย/ลาออก</a>
-        <a href="https://forms.gle/5xRANsjWjgr3XaBj6" class="btn btn-secondary"><i class="fas fa-users"></i>ชมรมผู้สูงอายุ</a>
-        <a href="https://forms.gle/g7SMBiyRcedb8vPe7" class="btn btn-primary"><i class="fas fa-hands-praying"></i>ลงนามถวายพระพร</a>
-      </div>
+      <h5>💻 <strong>สมัครเรียนศูนย์พัฒนาเด็กเล็ก</strong></h5>
+      <p>สำหรับผู้ปกครองที่ต้องการสมัครเข้าเรียนให้บุตรหลานในศูนย์พัฒนาเด็กเล็กของอบต.นาทราย</p>
+      <a href="https://forms.gle/GBZHz6CG3kcmrgyA6" target="_blank">➤ คลิกเพื่อลงสมัครเรียน</a>
     </div>
 
     <div class="service-card">
-      <h5><span class="icon">📄</span><strong>ดาวน์โหลดเอกสาร</strong></h5>
+      <h5>📤 <strong>ขอย้าย/ลาออก</strong></h5>
+      <p>ใช้กรณีผู้ปกครองประสงค์ให้บุตรหลานย้ายศูนย์ หรือขอลาออกจากศูนย์พัฒนาเด็กเล็ก</p>
+      <a href="https://forms.gle/s53MBQshSLQKDByx8" target="_blank">➤ คลิกเพื่อแจ้งย้ายหรือลาออก</a>
+    </div>
+
+    <div class="service-card">
+      <h5>💐 <strong>ลงนามถวายพระพร</strong></h5>
+      <p>สำหรับประชาชนที่ต้องการลงนามถวายพระพรแด่พระบรมวงศานุวงศ์</p>
+      <a href="https://forms.gle/gnv6Q1PVygqCqXrT8" target="_blank">➤ คลิกเพื่อลงนามถวายพระพร</a>
+    </div>
+
+    <div class="service-card">
+      <h5>🔍 <strong>ค้นหาและติดตามสถานะ</strong></h5>
+      <p>ตรวจสอบสถานะคำร้องหรือการสมัครที่เคยยื่นไว้ผ่านระบบ เช่น การแจ้งปัญหา การสมัครเรียน และการย้าย/ลาออก</p>
+      <a href="https://docs.google.com/spreadsheets/d/1MzzcgS04B1Bp_ESzOQ9BcLAQLnMLYDeBi74RElvPVmA/edit?usp=sharing" target="_blank">➤ คลิกเพื่อติดตามสถานะ</a>
+    </div>
+
+    <div class="service-card">
+      <h5>👶 <strong>ลงทะเบียนรับเงินอุดหนุนเด็กแรกเกิด</strong></h5>
+      <p>บริการลงทะเบียนเพื่อขอรับสิทธิเงินอุดหนุนเด็กแรกเกิดตามนโยบายภาครัฐ</p>
+      <a href="#" target="_blank">➤ ลิงก์รอการอัปเดต</a>
+    </div>
+
+    <div class="service-card">
+      <h5>👴 <strong>ลงทะเบียนรับเงินเบี้ยยังชีพผู้สูงอายุ</strong></h5>
+      <p>สำหรับผู้มีอายุครบเกณฑ์ที่ต้องการลงทะเบียนเพื่อรับเบี้ยยังชีพจากอบต.</p>
+      <a href="#" target="_blank">➤ ลิงก์รอการอัปเดต</a>
+    </div>
+
+    <div class="service-card">
+      <h5>♿ <strong>ลงทะเบียนรับเงินเบี้ยยังชีพผู้พิการ</strong></h5>
+      <p>บริการลงทะเบียนสำหรับผู้พิการที่มีสิทธิ์ได้รับเบี้ยยังชีพตามกฎหมาย</p>
+      <a href="#" target="_blank">➤ ลิงก์รอการอัปเดต</a>
+    </div>
+
+    <div class="service-card">
+      <h5>
+        <img src="199520.jpg" alt="ชมรมผู้สูงอายุตำบลนาทราย" style="width: 80px; margin-right: 10px;" />
+        <strong>สมัครสมาชิกชมรมผู้สูงอายุตำบลนาทราย</strong>
+      </h5>
+      <p>สำหรับผู้สูงอายุในพื้นที่ที่สนใจเข้าร่วมกิจกรรมกับชมรมเพื่อสุขภาพและสังคม</p>
+      <a href="#" target="_blank">➤ ลิงก์รอการอัปเดต</a>
+    </div>
+
+    <div class="service-card">
+      <h5>📎 <strong>ดาวน์โหลดเอกสาร</strong></h5>
       <p>สำหรับประชาชนที่ต้องการดาวน์โหลดแบบฟอร์มต่าง ๆ ที่เกี่ยวข้องกับบริการ</p>
-      <div class="category-buttons">
-        <a href="https://drive.google.com/drive/folders/1kqLxjRhhPe0FiActOv3vlMeDPFiah0iV" target="_blank" class="btn btn-all">📥 ทั้งหมด</a>
-        <a href="https://drive.google.com/drive/folders/1U_a220HstHy5JCaE0S3s7r9vPnyKkdnq" target="_blank" class="btn btn-outline-success">🧒 สมัครเรียน</a>
-        <a href="https://drive.google.com/drive/folders/1EQCRqrPxGtk4OTGWmKBo9q4O08_Lh1mI" target="_blank" class="btn btn-outline-warning">📤 ย้าย/ลาออก</a>
-        <a href="https://drive.google.com/drive/folders/1Rkot8T6OxHBJDXbNAzXO1T1E06Wz2jt7" target="_blank" class="btn btn-outline-info">👶 เด็กแรกเกิด</a>
-        <a href="https://drive.google.com/drive/folders/15Czh6K0BGzfm9N6vIFdx7pG7owqjziPD" target="_blank" class="btn btn-outline-secondary">👴 ผู้สูงอายุ</a>
-        <a href="https://drive.google.com/drive/folders/1KNeEGfmBudYvLM_09kgD0DtUM-qBji1R" target="_blank" class="btn btn-outline-dark">♿ ผู้พิการ</a>
-      </div>
+      <a href="https://drive.google.com/drive/folders/1wK_vKZuEaR2jcA9Y41fFsmX_9BFLS0e6?usp=sharing" target="_blank">➤ คลิกเพื่อดูและดาวน์โหลดเอกสาร</a>
     </div>
   </div>
 
